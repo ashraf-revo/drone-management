@@ -16,7 +16,7 @@
 #### RUNNING
 1. `docker compose -f docker-compose.yml up`
 2. `gradle bootRun`
-3. access the application throw  [open-api](http://localhost:8080/swagger-ui/index.html)
+3. access the application from  [open-api](http://localhost:8080/swagger-ui/index.html)
 
 #### RUNNING UNIT-TEST
 1. `gradle unitTests`
