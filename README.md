@@ -28,5 +28,5 @@
 - `gradle test`
 - access coverage report in `drone-management/build/reports/jacoco/test/html/index.html`
 - access integration test report in `drone-management/build/reports/tests/integrationTests/index.html`
-- access unit test report in `drone-management/build/reports/tests/test/index.html`
-- access all test report in `drone-management/build/reports/tests/unitTests/index.html`
+- access unit test report in `drone-management/build/reports/tests/unitTests/index.html`
+- access all test report in `drone-management/build/reports/tests/test/index.html`
