@@ -9,7 +9,6 @@
 5. Postgres 
 6. Docker & Docker Compose
 7. TestContainers
-8. GitHub Actions
 
 #### BUILDING
 1. `gradle clean build -x test`
