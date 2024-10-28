@@ -19,7 +19,14 @@
 3. access the application from  [open-api](http://localhost:8080/swagger-ui/index.html)
 
 #### RUNNING UNIT-TEST
-1. `gradle unitTests`
+- `gradle unitTests`
 
 #### RUNNING INTEGRATION-TEST
-1. `gradle integrationTests`
+- `gradle integrationTests`
+
+#### RUNNING TEST
+- `gradle test`
+- access coverage report in `drone-management/build/reports/jacoco/test/html/index.html`
+- access integration test report in `drone-management/build/reports/tests/integrationTests/index.html`
+- access unit test report in `drone-management/build/reports/tests/test/index.html`
+- access all test report in `drone-management/build/reports/tests/unitTests/index.html`
