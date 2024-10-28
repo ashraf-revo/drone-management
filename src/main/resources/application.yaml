@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: drone-management
+  sql:
+    init:
+      mode: always
+  datasource:
+    hikari:
+      schema: drone
+    url: jdbc:postgresql://localhost:5432/drone-mg
+    username: postgres
+    password: password
+  mvc:
+    problemdetails:
+      enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ["*"]

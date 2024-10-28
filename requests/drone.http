@@ -1,0 +1,16 @@
+# registring drone
+POST http://localhost:8080/api/v1/drone/register
+Content-Type: application/json
+
+{
+  "serial": "EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE",
+  "lightWeight": 2000,
+  "middleWeight": 2250,
+  "cruiserWeight": 2750,
+  "heavyWeight": 3000,
+  "batteryCapacity": 80,
+  "wightLimit": 450
+}
+
+### find all
+GET http://localhost:8080/api/v1/drone/find-all

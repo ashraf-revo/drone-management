@@ -1,0 +1,14 @@
+
+### find avilable drone for loading
+GET http://localhost:8080/api/v1/drone-dispatch-controller/find-all-for-loading
+
+### get loaded package for a drone
+GET http://localhost:8080/api/v1/drone-dispatch-controller/loaded-package-info?droneId=79182f41-ad53-40fe-889e-b213bcd7c1f5
+
+
+### get battery level
+GET http://localhost:8080/api/v1/drone-dispatch-controller/battery-level?droneId=4a8158af-e8cc-466f-99aa-da091da9df19
+
+### get state
+GET http://localhost:8080/api/v1/drone-dispatch-controller/state?droneId=4a8158af-e8cc-466f-99aa-da091da9df19
+

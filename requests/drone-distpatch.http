@@ -1,0 +1,33 @@
+
+### loading a drone
+POST http://localhost:8080/api/v1/drone-dispatch-controller/step1-loading-drone?droneId=2bae23c6-16cf-4e48-9f15-9ced0e3f250a
+
+### loaded a drone
+POST http://localhost:8080/api/v1/drone-dispatch-controller/step2-loaded-package?droneId=2bae23c6-16cf-4e48-9f15-9ced0e3f250a
+Content-Type: application/json
+
+{
+  "packageName": {
+    "packageName": "Package_Name-01"
+  },
+  "weight": 200,
+  "code": {
+    "code": "PKG-AE0101223"
+  },
+  "image": {
+    "imageUrl": "URL"
+  }
+}
+
+### dellivering a package
+POST http://localhost:8080/api/v1/drone-dispatch-controller/step3-delivering-package?droneId=2bae23c6-16cf-4e48-9f15-9ced0e3f250a
+
+### delivered a package
+POST http://localhost:8080/api/v1/drone-dispatch-controller/step4-delivered-package?droneId=2bae23c6-16cf-4e48-9f15-9ced0e3f250a
+
+### returing drone
+POST http://localhost:8080/api/v1/drone-dispatch-controller/step5-returning-drone?droneId=2bae23c6-16cf-4e48-9f15-9ced0e3f250a
+
+### returned drone
+POST http://localhost:8080/api/v1/drone-dispatch-controller/step6-returned-drone?droneId=2bae23c6-16cf-4e48-9f15-9ced0e3f250a
+
